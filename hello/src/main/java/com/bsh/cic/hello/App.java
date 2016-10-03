@@ -35,7 +35,7 @@ public class App {
         }
                        
             for (String key : map.keySet()) {
-               System.out.println( "Word" + "  " +  key + "  " + "Frequecy" + "  " + map.get(key));
+               System.out.println( "Word " + "  " +  key + "  " + "Frequecy" + "  " + map.get(key));
             }
             
         } catch (FileNotFoundException e) {
